@@ -1,8 +1,5 @@
 
-//Abstraction in Java is a fundamental concept that allows you to represent the essential features of an object without including the implementation details. It helps to simplify complex systems by focusing on what an object does rather than how it does it.//
-//Abstract Classes and interfaces//
-//An abstract class is a class that cannot be instantiated directly and may contain abstract methods (methods without a body).//
-//An interface is a reference type in Java that is similar to a class but contains only constants, method signatures, default methods, static methods, and nested types.//
+//What is abstraction in java, how many ways can we implement abstraction, write proper java program and how to implement abstraction.
 
 abstract class Shape {
     public abstract double calculateArea();
@@ -40,7 +37,7 @@ class Rectangle implements Drawable {
     }
 }
 
-public class AbstractionExample {
+public class Abstraction {
     public static void main(String[] args) {
         Circle circle = new Circle(5);
         Rectangle rectangle = new Rectangle(4, 6);

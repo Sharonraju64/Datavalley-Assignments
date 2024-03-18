@@ -1,3 +1,5 @@
+//Write a java program to implement synchronization, write clear java coding steps how to do synchronization with java thread objects.
+
 class Counter {
     private int count = 0;
 
@@ -14,7 +16,7 @@ class Counter {
     }
 }
 
-public class SynchronizationExample {
+public class Synchronization {
     public static void main(String[] args) throws InterruptedException {
         Counter counter = new Counter();
 

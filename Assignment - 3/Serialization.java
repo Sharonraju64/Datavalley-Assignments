@@ -1,3 +1,7 @@
+
+//1. Write a java program, how to implement serialization for a given object. Use required classes and process to complete the serialization.
+//for example take Customer(id, name, contactNo and address) class, use should write the java code, how to serialize Customer object to JavaObject.txt file.
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectOutputStream;
@@ -27,7 +31,7 @@ class Customer implements Serializable {
     }
 }
 
-public class SerializationExample {
+public class Serialization {
     public static void main(String[] args) {
         Customer customer = new Customer(1, "John Doe", "1234567890", "123 Main Street");
 
